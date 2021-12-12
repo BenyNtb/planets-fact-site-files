@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header>
+    <!-- <header>
     <nav class="navbar navbar-expand-sm navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">The Planets</a>
@@ -61,8 +61,19 @@
         </div>
       </div>
     </nav>
-  </header>
-
+  </header> -->
+  <div id="nav">
+      <router-link to="/"> Home</router-link> 
+      <router-link 
+      to="/mercury"> Mercury</router-link>
+      <router-link to="/venus"> Venus</router-link>
+      <router-link to="/earth"> Earth</router-link>
+      <router-link to="/mars"> Mars</router-link>
+      <router-link to="/jupiter"> Jupiter</router-link>
+      <router-link to="/saturn"> Saturn</router-link>
+      <router-link to="/uranus"> Uranus</router-link>
+      <router-link to="/neptune"> Neptune</router-link>
+    </div>
     <router-view/>
   </div>
 </template>
